@@ -1,0 +1,13 @@
+{
+    "name": "Machine Learning Specialization",
+    "dockerFile": "Dockerfile",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+    ],
+    "forwardPorts": [8888],
+    "postCreateCommand": "echo '环境已准备就绪！'"
+}
